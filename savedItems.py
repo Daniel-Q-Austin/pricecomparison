@@ -18,6 +18,9 @@ Files accesed:
 
 Testing File:  savedItems_tests.docx
 
+In the event of a password chaching error, query databse with:
+  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'DATABASEPASSWORDHERE'
+
 """
 import os
 import mysql.connector
